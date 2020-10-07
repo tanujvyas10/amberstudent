@@ -1,5 +1,6 @@
 .Results {
-	padding-bottom: 4px;
+    padding-bottom: 4px;
+    margin-top:10px;
 	animation: animateHeroimage 1s;
 }
 
