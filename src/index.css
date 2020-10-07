@@ -1,0 +1,6 @@
+body{
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+  background-size: fixed;
+  background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url('https://farm5.staticflickr.com/4808/45463523604_6f8346c7f6_o.jpg') no-repeat center center fixed ; 
+  font-family: 'Nunito Sans', sans-serif;
+}

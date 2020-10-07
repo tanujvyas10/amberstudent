@@ -1,0 +1,87 @@
+.Results {
+	padding-bottom: 4px;
+	animation: animateHeroimage 1s;
+}
+
+@keyframes animateHeroimage {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.Results>.Message {
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 0.7rem;
+	color: #525252;
+}
+
+.Result_item {
+	height: auto;
+	text-align: left;
+	padding-left: 10px;
+	display: flex;
+}
+
+.Result_p {
+	color: #000 !important;
+	font-size: 0.9rem;
+	margin-top: 10px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+
+.Result_h4 {
+	color: #e8415d;
+	margin: 0;
+	padding-left: 10px;
+}
+
+.Recent_element {
+	background-color: #eeeeee;
+	border-radius: 5px;
+	box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+	padding-left: 9px;
+	padding-right: 9px;
+}
+
+.Popular_cities {
+	margin-top: 2rem;
+}
+
+
+.Recent_list {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.Result_item:hover {
+	background-color: #eee;
+	cursor: pointer;
+}
+
+.Popular_list {
+	display: block;
+	float: left;
+	width: 100%;
+	background-color: #fff;
+}
+
+.Popular_element {
+	width: 33%;
+	float: left;
+}
+
+@media screen and (max-width: 2225px) {
+	@media screen and (max-width: 947px) {
+		.Recent_list {
+			flex-direction: column;
+		}
+	}
+}

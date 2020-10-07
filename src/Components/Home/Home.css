@@ -1,0 +1,120 @@
+.Home {
+	text-align: center;
+	align-items: center;
+	margin-top: 10vh;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+.Home_headers {
+	margin-bottom: 11vh;
+}
+
+.Home_headers>h1 {
+	color: #ffffff;
+	font-size: 3.5em;
+	font-weight: 400;
+	margin-bottom: 0px;
+}
+
+.Home_headers>h4 {
+	color: #f3f3f3;
+	font-size: 1.5em;
+}
+
+.Home_search {
+	width: fit-content;
+	margin: auto;
+	position: relative;
+	margin-right: 30vw;
+	background-color: #ffffff;
+}
+
+.Home_search>input {
+	align-items: center;
+	height: 39px;
+	width: 40vw;
+	font-size: 1rem;
+	margin: auto;
+	border-radius: 2px;
+	border: none;
+	outline-width: 0;
+	padding: 10px 30px;
+	background-color: #ffffff;
+}
+
+.Home_search>.CancelIcon {
+	cursor: pointer;
+	color: #555;
+	position: relative;
+}
+
+.Home_search>.SearchIcon {
+	position: relative;
+}
+
+.Home_search>.Cancel_box {
+	width: 50px;
+	background-color: black;
+}
+
+.Home_search>.Spacing {
+	cursor: pointer;
+}
+
+.Popular_h4 {
+	font-weight: 750;
+	font-size: 0.8rem;
+	transition: transform 100ms ease-in;
+}
+
+.Popular_h4:hover {
+	cursor: pointer;
+	transform: scale(1.03);
+}
+
+.Popular_span {
+	font-weight: 750;
+	font-size: 0.7rem !important;
+	color: #636363 !important;
+}
+
+.Home_search>button {
+	position: absolute;
+	letter-spacing: 1px;
+	margin: 0;
+	height: 60px;
+	padding: 10px 30px;
+	font-size: 1.2rem;
+	background-color: #e8415d;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 2225px) {
+	@media screen and (max-width: 947px) {
+		.Home_search {
+			width: 70vw;
+			flex-direction: column;
+			margin: auto;
+			background-color: #ffffff;
+			display: flex;
+		}
+		.Home_search>input {
+			font-size: 1rem;
+			height: 2rem;
+			flex: 1;
+		}
+		.Home_search>button {
+			flex: 1;
+			position: relative;
+		}
+		.Home_search>.Spacing,
+		.Home_search>.CancelIcon {
+			position: absolute;
+			right: 0;
+		}
+	}
+}
