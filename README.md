@@ -22,4 +22,4 @@
 
 
 
-[sample](https://amberstudent.com/)
+[Live Demo](https://amberstudent.com/)
